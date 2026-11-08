@@ -1,0 +1,104 @@
+{
+  "cenik": {
+    "seo": { "title": "Ceník | Elektroinstalace a zabezpečení | Elektro Linka", "description": "Kolik mě to bude stát? V přehledném ceníku najdete jednotlivé služby, které nabízím. Nenašli jste požadovanou službu? Napište mi i tak a dohodneme se." },
+    "title": "Ceník",
+    "sub": "Přehledný, stručný, aktuální.",
+    "photo": "cenik_naradi_kalkulacka.webp",
+    "photoAlt": "Kalkulačka, rozpočet a elektrikářské nářadí na pracovním stole",
+    "tabsTitle": "Vyberte službu",
+    "note": "Ceny jsou pouze orientační a mohou se měnit. Pro konkrétní cenovou kalkulaci mě kontaktujte.",
+    "_todo": "Elektroinstalace: drobné práce 650 Kč/h × drobné opravy od 750 Kč/h – sjednotit (převzato beze změny z Webflow).",
+    "services": {
+      "elektroinstalace": {
+        "rows": [
+          ["Drobné práce (výměna jističe, osvětlení apod.)", "650 Kč / h"],
+          ["Drobné opravy (jistič, osvětlení, vypínač atd.)", "od 750 Kč / h"],
+          ["Byt 2+1, kompletní elektroinstalace", "od 50 000 Kč"],
+          ["Byt 3+1, kompletní elektroinstalace", "od 70 000 Kč"],
+          ["Byt 5+1, kompletní elektroinstalace", "od 80 000 Kč"],
+          ["Doprava", "10 Kč / km"]
+        ],
+        "included": { "title": "Co je zahrnuto v ceně?", "items": ["konzultace a návštěva", "nacenění projektu", "kompletní elektroinstalace"], "excluded": ["revize není součástí ceny"] }
+      },
+      "chytra-domacnost": {
+        "rows": [["Cenová nabídka", "na vyžádání"], ["Doprava po Jičíně", "zdarma"], ["Doprava mimo Jičín", "10 Kč / km"]]
+      },
+      "nabijeci-stanice": {
+        "rows": [["Pořízení wallboxu", "vlastní nebo dle dohody"], ["Instalace wallboxu a zaškolení", "8 000 Kč"], ["Doprava po Jičíně", "zdarma"], ["Doprava mimo Jičín", "10 Kč / km"]]
+      },
+      "montaz-spotrebicu": {
+        "rows": [["Montáž spotřebiče", "650 Kč / ks"], ["Doprava po Jičíně", "zdarma"], ["Doprava mimo Jičín", "10 Kč / km"]]
+      }
+    },
+    "contactHtml": "Zaujal jsem vás? Pošlete mi nezávaznou poptávku nebo mi zavolejte na tel. <a class=\"u-link\" href=\"tel:+420775687877\">775 687 877</a>. Společně se domluvíme na dalším postupu."
+  },
+  "ukazky": {
+    "seo": { "title": "Ukázky mé práce | Elektroinstalace a zabezpečení | Elektro Linka", "description": "Svou práci dělám poctivě. Přesvědčte se na vlastní oči ve foto-galerii hotových zakázek." },
+    "title": "Ukázky mé práce",
+    "sub": "Dokončené projekty.",
+    "all": "Vše"
+  },
+  "omne": {
+    "seo": { "title": "O mně | Elektroinstalace a zabezpečení | Elektro Linka", "description": "Kdo jsem a jak jsem se stal elektrikářem? Sepsal jsem pro vás krátké shrnutí." },
+    "title": "O mně",
+    "sub": "Kdo jsem a co pro vás můžu udělat?",
+    "photo": "jan_linka_s_kufrem.jpg",
+    "photoPos": "38% 40%",
+    "photoAlt": "Jan Linka v montérkách s kufrem nářadí cestou na zakázku",
+    "story": {
+      "title": "Můj příběh",
+      "html": "<p>Moje kariéra elektrikáře se začala psát takřka od dětství. S elektro stavebnicí Voltík jsem si hrál snad ještě dřív, než jsem uměl chodit a mluvit. Následovalo období skládání a rozkládání nejrůznějších elektro přístrojů – rádia, svítilny, trafa a vše, co se strká do elektřiny nebo je poháněno bateriemi.</p><p>V roce 2009 jsem nastoupil na Střední školu strojní, stavební a dopravní v Liberci, kterou jsem zdárně dokončil jako mechanik-elektrotechnik. Uplynulo pár let, získal jsem odbornou certifikaci a založil živnost. V osobním volnu se věnuji rekonstrukci domu. I tady uplatňuji své elektrikářské dovednosti.</p>",
+      "photo": "tools.avif",
+      "photoAlt": "Multimetr, kleště a šroubovák na výkresu elektroinstalace"
+    },
+    "mission": {
+      "title": "Moje poslání",
+      "html": "<p>Nejen velké korporace mohou mít poslání. Chcete slyšet to moje? Mým posláním je poskytovat špičkové služby v oboru elektrikář. Má práce je zároveň mým koníčkem a rozhodně se nemusím nutit a přemlouvat do ní chodit. Neustále rozvíjím své schopnosti a držím se aktuálních trendů a postupů.</p><p>To všechno, abych vám mohl nabídnout služby, za které se nebudu stydět. Vy na oplátku získáte kvalitně odvedenou práci, za kterou ručím svým jménem.</p>",
+      "photo": "jan_linka_rozvadec.webp",
+      "photoAlt": "Jan Linka se zkoušečkou před elektroměrovým rozvaděčem"
+    },
+    "timeline": [
+      { "year": "2009", "text": "Střední škola strojní, stavební a dopravní v Liberci – mechanik-elektrotechnik" },
+      { "year": "2022", "text": "Osvědčení o profesní kvalifikaci – montér dobíjecích stanic pro elektromobily" },
+      { "year": "2023", "text": "Zkouška podle NV č. 194/2022 Sb. (dříve vyhláška 50)" }
+    ],
+    "certs": {
+      "title": "Certifikáty",
+      "items": [
+        { "file": "certifikat_1.webp", "alt": "Protokol o zkoušce podle nařízení vlády č. 194/2022 Sb. – Jan Linka", "label": "Zkouška podle NV č. 194/2022 Sb." },
+        { "file": "certifikat_2.avif", "alt": "Osvědčení o získání profesní kvalifikace montér dobíjecích stanic pro elektromobily – Jan Linka", "label": "Montér dobíjecích stanic pro elektromobily" }
+      ]
+    }
+  },
+  "kontakt": {
+    "seo": { "title": "Kontakt | Elektroinstalace a zabezpečení | Elektro Linka", "description": "Máte zájem o moje služby? Vyplňte kontaktní formulář nebo mi rovnou zavolejte na tel. 775 687 877." },
+    "title": "Kontakt",
+    "sub": "Kde sídlím a kam za vámi dorazím?",
+    "photo": "mapa-luzany.png",
+    "photoAlt": "Mapa okolí Jičína s pinem na obci Lužany, kde sídlím",
+    "detailsTitle": "Kontaktní údaje",
+    "areaTitle": "Kde působím?",
+    "areaText": "Působím v Královéhradeckém a Libereckém kraji. Zejména v okolí Jičína, Hradce, Jaroměře, Vrchlabí a Turnova. V případě potřeby za vámi dojedu kamkoliv.",
+    "formTitle": "Kontaktní formulář",
+    "formHtml": "Máte dotaz nebo chcete poptat moje služby? Vyplňte formulář nebo mi zavolejte na tel. <a class=\"u-link\" href=\"tel:+420775687877\">775 687 877</a>. Společně se domluvíme na dalším postupu."
+  },
+  "dekuji": {
+    "seo": { "title": "Děkuji | Elektro Linka", "description": "Děkuji za poptávku. Brzy se s vámi spojím. Na shledanou." },
+    "title": "Formulář odeslán",
+    "big": "Děkuji",
+    "text": "Brzy se s vámi spojím a vše probereme.",
+    "back": "Zpět na hlavní stránku"
+  },
+  "notFound": {
+    "seo": { "title": "Stránka nenalezena | Elektro Linka", "description": "Tahle stránka neexistuje." },
+    "title": "Tady nic nesvítí",
+    "text": "Stránka, kterou hledáte, neexistuje nebo se přestěhovala. Zkuste začít znovu na úvodní stránce, nebo mi rovnou zavolejte.",
+    "back": "Na úvodní stránku"
+  },
+  "redirects": [
+    { "from": "/sluzby", "to": "/#sluzby" },
+    { "from": "/kalkulacka", "to": "/cenik" },
+    { "from": "/old-home-10", "to": "/" },
+    { "from": "/oprava-elektrospotrebicu", "to": "/chytra-domacnost" }
+  ]
+}

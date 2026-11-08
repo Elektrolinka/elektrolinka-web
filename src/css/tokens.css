@@ -1,0 +1,70 @@
+/* =========================================================
+   Design tokeny – směr A „Rozvaděč“
+   ========================================================= */
+:root {
+  /* Barvy */
+  --c-bg: #0D1626;          /* noc v rozvodně – tmavá navy z původní #182944 */
+  --c-bg-2: #101C30;        /* patička */
+  --c-surface: #152238;     /* montážní deska, karty */
+  --c-surface-2: #1C2C47;
+  --c-line: #2B3C5C;
+  --c-field-line: #64789B; /* ohraničení polí formuláře – 3,6 : 1 na kartě, 4,1 : 1 na pozadí (WCAG 1.4.11) */
+  --c-line-soft: rgb(255 255 255 / .08);
+  --c-text: #EAF0F7;
+  --c-muted: #B4C2D6;       /* 10 : 1 na --c-bg, 8,6 : 1 na --c-surface */
+  --c-text-2: #CDD7E4;      /* popisky na kartách */
+  --c-volt: #F0CC0D;        /* značková žlutá */
+  --c-volt-hot: #FFE458;
+  --c-on-volt: #0D1626;
+  --c-danger: #FF8A7A;
+  --c-success: #7BE0A5;
+  --c-focus: #FFE458;
+  --c-header-bg: rgb(13 22 38 / .72);
+  --c-header-line: rgb(255 255 255 / .08);
+  --c-menu-bg: #0D1626;
+
+  /* Písma */
+  --font-display: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
+  --font-body: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', 'Segoe UI Mono', Menlo, Consolas, monospace; /* systémové – o jedno webové písmo méně */
+
+  /* Typografická škála (fluidní) */
+  --step--2: clamp(.72rem, .7rem + .1vw, .78rem);
+  --step--1: clamp(.83rem, .8rem + .15vw, .9rem);
+  --step-0: clamp(1rem, .96rem + .2vw, 1.125rem);
+  --step-1: clamp(1.15rem, 1.07rem + .4vw, 1.35rem);
+  --step-2: clamp(1.45rem, 1.25rem + .9vw, 1.95rem);
+  --step-3: clamp(2.1rem, 1.5rem + 2.6vw, 3.6rem);
+  --step-4: clamp(2.8rem, 1.4rem + 4.6vw, 5.6rem); /* hero – „ELEKTROINSTALACE“ se vejde na řádek i na tabletu */
+
+  /* Spacing (fluidní) */
+  --space-2xs: clamp(.25rem, .2rem + .2vw, .375rem);
+  --space-xs: clamp(.5rem, .45rem + .25vw, .625rem);
+  --space-s: clamp(.75rem, .65rem + .5vw, 1rem);
+  --space-m: clamp(1rem, .85rem + .75vw, 1.5rem);
+  --space-l: clamp(1.5rem, 1.2rem + 1.5vw, 2.5rem);
+  --space-xl: clamp(2.5rem, 1.8rem + 3vw, 4.5rem);
+  --space-2xl: clamp(4rem, 2.6rem + 6vw, 8rem);
+  --gutter: clamp(1rem, .5rem + 2.5vw, 2.5rem);
+  --container: 1240px;
+  --header-h: 76px;
+  --header-h-small: 60px;
+
+  /* Tvary */
+  --radius-btn: 6px;
+  --radius-s: 6px;
+  --radius-card: 10px;
+  --shadow-card: inset 0 1px 0 rgb(255 255 255 / .05), 0 18px 40px -24px rgb(0 0 0 / .9);
+  --shadow-glow: 0 0 0 1px rgb(240 204 13 / .35), 0 8px 30px -6px rgb(240 204 13 / .45);
+
+  /* Pohyb */
+  --ease-out: cubic-bezier(.22, 1, .36, 1);       /* vstupy, odhalení */
+  --ease-in-out: cubic-bezier(.65, 0, .35, 1);    /* přechody stavů */
+  --ease-spring: cubic-bezier(.34, 1.36, .64, 1); /* hover, jemný překmit */
+  --dur-1: 150ms;
+  --dur-2: 300ms;
+  --dur-3: 600ms;
+  --dur-4: 900ms;
+
+  --tap: 44px;
+}

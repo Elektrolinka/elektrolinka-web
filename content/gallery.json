@@ -1,0 +1,117 @@
+{
+  "_note": "Ukázky mé práce – převzato z Webflow. Popisky a kategorie odvozené z názvů souborů – zkontrolovat.",
+  "items": [
+    {
+      "alt": "Instalace wallboxu u rodinného domu",
+      "width": 950,
+      "height": 1267,
+      "category": "Wallboxy",
+      "file": "18_wallbox_1.avif"
+    },
+    {
+      "alt": "Nový domovní rozvaděč",
+      "width": 950,
+      "height": 1267,
+      "category": "Rozvaděče",
+      "file": "11_novy_dom_rozv_2.avif"
+    },
+    {
+      "alt": "Nabíjecí stanice pro elektromobil",
+      "width": 950,
+      "height": 1267,
+      "category": "Wallboxy",
+      "file": "17_wallbox.avif"
+    },
+    {
+      "alt": "Kompletní elektroinstalace k fotovoltaice",
+      "width": 950,
+      "height": 1267,
+      "category": "Fotovoltaika",
+      "file": "06_komplet_fve_-elektr.avif"
+    },
+    {
+      "alt": "Elektroměrový sloupek po úpravě",
+      "width": 950,
+      "height": 1267,
+      "category": "Rozvaděče",
+      "file": "05_elmer_sloupek_po_uprave_1.avif"
+    },
+    {
+      "alt": "Zapojení nového rozvaděče",
+      "width": 950,
+      "height": 1267,
+      "category": "Rozvaděče",
+      "file": "13_novy_rozv_1.avif"
+    },
+    {
+      "alt": "Nový rozvaděč s jističi",
+      "width": 950,
+      "height": 1267,
+      "category": "Rozvaděče",
+      "file": "12_novy_rozv.avif"
+    },
+    {
+      "alt": "Montáž fotovoltaiky, Dražice",
+      "width": 950,
+      "height": 1267,
+      "category": "Fotovoltaika",
+      "file": "08_montaz_fve-_drazice.avif"
+    },
+    {
+      "alt": "Wallbox na zdi garáže",
+      "width": 1200,
+      "height": 1600,
+      "category": "Wallboxy",
+      "file": "wallbox.avif"
+    },
+    {
+      "alt": "Přívod k wallboxu",
+      "width": 3000,
+      "height": 4000,
+      "category": "Wallboxy",
+      "file": "privod-k-wallboxu.avif"
+    },
+    {
+      "alt": "LED osvětlení stropu",
+      "width": 2384,
+      "height": 3000,
+      "category": "Osvětlení",
+      "file": "led-strop.avif"
+    },
+    {
+      "alt": "Stropní svítidlo v koupelně",
+      "width": 3000,
+      "height": 4000,
+      "category": "Osvětlení",
+      "file": "img_20250327_180205.avif"
+    },
+    {
+      "alt": "Nové osvětlení",
+      "width": 950,
+      "height": 1267,
+      "category": "Osvětlení",
+      "file": "osvetleni-01.webp"
+    },
+    {
+      "alt": "Montáž zásuvek",
+      "width": 950,
+      "height": 1267,
+      "category": "Zásuvky a vypínače",
+      "file": "foto-zasuvky-1.webp"
+    },
+    {
+      "alt": "Zásuvky a vypínače po montáži",
+      "width": 950,
+      "height": 1267,
+      "category": "Zásuvky a vypínače",
+      "file": "foto-zasuvky-2.webp"
+    },
+    {
+      "alt": "Domovní rozvaděč po zapojení",
+      "width": 950,
+      "height": 1267,
+      "category": "Rozvaděče",
+      "file": "rozvod5.webp"
+    }
+  ]
+}

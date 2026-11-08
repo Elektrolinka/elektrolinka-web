@@ -1,0 +1,37 @@
+{
+  "name": "Elektro Linka",
+  "person": "Jan Linka",
+  "slogan": "Jdu s proudem",
+  "phone": "775 687 877",
+  "phoneIntl": "+420775687877",
+  "email": "info@elektrolinka.cz",
+  "address": { "street": "Lužany 135", "zip": "507 06", "city": "Lužany", "region": "Královéhradecký kraj" },
+  "ico": "09952250",
+  "bank": "107-4412080287/0100",
+  "yearsOfPractice": 13,
+  "responseHours": 24,
+  "completedJobs": null,
+  "google": {
+    "_todo": "Doplnit skutečné hodnocení, počet recenzí a krátký odkaz na profil firmy (g.page / Place ID).",
+    "rating": 5.0,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/place/Elektrik%C3%A1%C5%99+%E2%80%93+Jan+Linka/@50.4297925,15.4673681,17z/data=!4m8!3m7!1s0x8a4067b5c102a925:0x2137c4b4d5bcaead!8m2!3d50.4297925!4d15.469943!9m1!1b1!16s%2Fg%2F11np4lfzqh"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/profile.php?id=100066348923120",
+    "instagram": "https://www.instagram.com/elektromontaze_linka/",
+    "whatsapp": "https://wa.me/420775687877?text=Elektro%20Linka"
+  },
+  "nav": [
+    { "label": "Služby", "href": "/#sluzby", "children": "services" },
+    { "label": "Ceník", "href": "/cenik" },
+    { "label": "Ukázky mé práce", "href": "/ukazky-me-prace" },
+    { "label": "O mně", "href": "/o-mne" },
+    { "label": "Kontakt", "href": "/kontakt" }
+  ],
+  "legal": [
+    { "label": "Ochrana osobních údajů", "href": "/zasady-ochrany-osobnich-udaju" },
+    { "label": "Cookies", "href": "/cookies" }
+  ],
+  "credit": { "text": "Design a tvorba webu", "name": "Ondřej Linka", "url": "https://www.linkedin.com/in/ondrej-linka/" }
+}

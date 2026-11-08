@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "Elektroinstalace a zabezpečení | Elektro Linka",
+    "description": "Poskytuji kompletní elektrikářské práce a zabezpečení v Hradci Králové, Jičíně a okolí. Postarám se o vše od elektroinstalace bytových a domovních rozvodů až po montáž a nastavení chytré domácnosti.",
+    "ogImage": "jan_linka_hero.webp"
+  },
+  "hero": {
+    "eyebrow": "Elektrikář · Hradec Králové, Jičín, Nová Paka",
+    "titleHtml": "Elektro&shy;instalace a <span class=\"volt\">zabezpečení</span>",
+    "leadHtml": "Poskytuji kompletní elektrikářské práce a zabezpečení v Hradci Králové, Jičíně a okolí. Postarám se o vše od <strong>elektroinstalace bytů a domů</strong> až po montáž a nastavení <strong>chytré domácnosti</strong>.",
+    "cta": "Nezávazně poptat",
+    "photo": "jan_linka_hero.webp",
+    "photoAlt": "Jan Linka zapojuje jistič v elektroměrovém rozvaděči",
+    "price": {
+      "title": "Cenu předem",
+      "text": "přijedu, zkonzultuji, nacením"
+    }
+  },
+  "services": {
+    "title": "Služby",
+    "more": "Více o službě"
+  },
+  "why": {
+    "title": "Proč si mě vybrat?",
+    "photo": "jan_linka_rozvadec.webp",
+    "photoAlt": "Jan Linka se zkoušečkou před elektroměrovým rozvaděčem",
+    "items": [
+      {
+        "icon": "medal",
+        "title": "Zkušenosti",
+        "html": "V oboru elektrikář se pohybuji už nějaký ten pátek i sobotu. Konkrétně je to 13 let. Nejsem fušer, svou práci dělám zodpovědně. Mrkněte se na <a class=\"u-link\" href=\"#recenze\">reference</a>."
+      },
+      {
+        "icon": "clock",
+        "title": "Dochvilnost",
+        "html": "Na výmluvy si nepotrpím. Moje slovo platí. Pokud se s vámi dohodnu na pevně daném termínu, můžete se spolehnout, že dorazím."
+      },
+      {
+        "icon": "chat",
+        "title": "Neformální přístup",
+        "html": "Zakládám si na lidském a přátelském jednání. Nečekejte odborné výrazy, kterým málokdo rozumí. Mluvím vaší řečí."
+      },
+      {
+        "icon": "bolt",
+        "title": "Rychlá komunikace",
+        "html": "Komunikuji rychlostí blesku. Do 24 hodin od zaslání dotazu nebo poptávky se vám ozvu."
+      }
+    ]
+  },
+  "area": {
+    "title": "Kam za vámi dojedu?",
+    "text": "Působím v Královéhradeckém a Libereckém kraji. Především v okolí Hradce, Jičína a Nové Paky. Jste odjinud? Není problém.",
+    "regions": [
+      "Královéhradecký kraj",
+      "Liberecký kraj"
+    ],
+    "cities": [
+      {
+        "name": "Hradec Králové",
+        "lat": 50.209,
+        "lon": 15.832,
+        "main": true
+      },
+      {
+        "name": "Jičín",
+        "lat": 50.437,
+        "lon": 15.351,
+        "main": true
+      },
+      {
+        "name": "Nová Paka",
+        "lat": 50.494,
+        "lon": 15.515,
+        "main": true
+      },
+      {
+        "name": "Jaroměř",
+        "lat": 50.356,
+        "lon": 15.921
+      },
+      {
+        "name": "Vrchlabí",
+        "lat": 50.627,
+        "lon": 15.609
+      },
+      {
+        "name": "Turnov",
+        "lat": 50.587,
+        "lon": 15.157
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Co o mně řekli zákazníci",
+    "items": [
+      {
+        "name": "Hafik14",
+        "rating": 5,
+        "text": "Perfektní elektrikář, rychlá domluva, zapomněl jsem před montáží TČ nechat natáhnout nový kabel, a na doporučení zavolat elektrikáře Jan Linka, vše hned pochopil, přijel se podívat řekl předběžnou cenu postup prací i nejbližší termín který byl vzhledem k mé situaci velmi brzy. Práci provedl na jedničku, vše jak jsme se domluvili."
+      },
+      {
+        "name": "Lucie Marksova",
+        "rating": 5,
+        "text": "V celém bytě vypadla elektřika a tak jsme museli s měsíčním miminkem narychlo opustit byt a nechat se ubytovat na penzionu. I přesto, že měl pan Linka nasmlouváno mnoho jiné práce, byl natolik ochotný že k nám přijel i po pracovní době a snažil se problém co nejdříve vyřešit. A také vyřešil. Ještě jednou vám mockrát děkuju."
+      },
+      {
+        "name": "Lucie Šantrochová",
+        "rating": 5,
+        "text": "Výborná komunikace a dobře odvedená práce. Pan Linka se s námi spojil telefonicky, nabídl termín opravy, ve kterém dorazil a vše proběhlo bez problémů. Mohu jedině doporučit."
+      },
+      {
+        "name": "Tereza Studená",
+        "rating": 5,
+        "text": "Děkuju panu Linkovi za profesionálně odvedenou práci. S výsledkem jsem maximálně spokojená. Rozhodně doporučuju."
+      },
+      {
+        "name": "Josef Kumstýř",
+        "rating": 5,
+        "text": "Dobře odvedená práce v dohodnutém termínu, bezproblémová komunikace a ochota. Z mé strany naprostá spokojenost."
+      },
+      {
+        "name": "Iva Viková",
+        "rating": 5,
+        "text": "Dobrý termín, spolehlivost a dobrá práce"
+      }
+    ]
+  },
+  "steps": {
+    "title": "Jak si mě objednat?",
+    "intro": "4 kroky k vaší naprosté spokojenosti. Pojďme se do toho pustit.",
+    "items": [
+      {
+        "title": "Napište mi",
+        "html": "Zaujal jsem vás? Skvěle. Vyplňte kontaktní formulář a uveďte, o jakou službu máte zájem. Pokud to hoří, zavolejte mi na tel. <a class=\"u-link\" href=\"tel:+420775687877\">+420 775 687 877</a>."
+      },
+      {
+        "title": "Ozvu se vám",
+        "html": "Jakmile to bude možné, ozvu se vám a probereme společně váš požadavek. V případě potřeby přijedu osobně obhlédnout situaci."
+      },
+      {
+        "title": "Zpracuju nabídku",
+        "html": "Na základě vaší poptávky zhodnotím náročnost práce a připravím cenovou nabídku, kterou vám zašlu na e-mail."
+      },
+      {
+        "title": "Pustím se do práce",
+        "html": "V domluveném termínu dorazím na místo a pustím se do práce. Kafíčko rozhodně nečekám, siestu si udělám až po zdárně odvedené práci."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontaktní formulář",
+    "html": "Vyplňte nezávazný poptávkový formulář nebo mi zavolejte na tel. <a class=\"u-link\" href=\"tel:+420775687877\">775 687 877</a>. Společně se domluvíme na dalším postupu."
+  }
+}

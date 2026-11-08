@@ -1,0 +1,10 @@
+.audit/
+node_modules/
+dist/
+.cache/
+.DS_Store
+
+# interní podklady – jen lokálně, do veřejného repozitáře nepatří
+docs/
+design/
+.claude/

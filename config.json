@@ -1,0 +1,10 @@
+{
+  "siteUrl": "https://www.elektrolinka.cz",
+  "makeWebhookUrl": "https://hook.eu2.make.com/o6ikym7dvdb436yr73vg5mxfv7yabvyo",
+  "gtmId": "GTM-W5F55BFW",
+  "minFillSeconds": 4,
+  "gtmLoad": {
+    "_note": "GTM se načte při první interakci (scroll, dotyk, klávesa, pohyb myši) nebo nejpozději fallbackMs po události load. 0 = jen interakce (jako na Webflow).",
+    "fallbackMs": 4000
+  }
+}

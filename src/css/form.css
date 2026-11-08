@@ -1,0 +1,75 @@
+/* =========================================================
+   Poptávkový formulář
+   ========================================================= */
+.lead-form { position: relative; padding: var(--space-l); border-radius: calc(var(--radius-card) + 4px); background: var(--c-surface); border: 1px solid var(--c-line); box-shadow: var(--shadow-card); }
+.lead-form__fields { display: grid; gap: var(--space-m); }
+@media (min-width: 640px) { .lead-form__fields { grid-template-columns: 1fr 1fr; } .field--wide { grid-column: 1 / -1; } }
+
+.field { position: relative; display: grid; gap: .4rem; align-content: start; }
+.field > label { font-weight: 700; font-size: var(--step--1); }
+.field__opt { font-weight: 500; color: var(--c-muted); }
+.field input:not([type="checkbox"]), .field select, .field textarea {
+  width: 100%; min-height: 52px; padding: .8rem 1rem; border-radius: var(--radius-s);
+  background: var(--c-bg); border: 1px solid var(--c-field-line); color: var(--c-text);
+  transition: border-color var(--dur-2) var(--ease-out), box-shadow var(--dur-2) var(--ease-out), background-color var(--dur-2) var(--ease-out);
+}
+.field textarea { resize: vertical; min-height: 128px; }
+.field input::placeholder, .field textarea::placeholder { color: #8E9DB4; opacity: 1; } /* 6,6 : 1 */
+.field input:hover, .field select:hover, .field textarea:hover { border-color: #8496B5; }
+.field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--c-volt); box-shadow: 0 0 0 4px rgb(240 204 13 / .16), 0 10px 30px -18px rgb(240 204 13 / .6); background: #0F1A2D; }
+.field > label { transition: color var(--dur-2) var(--ease-out); }
+.field:focus-within > label { color: var(--c-volt); }
+.field__select { position: relative; }
+.field__select select { appearance: none; -webkit-appearance: none; padding-right: 2.75rem; cursor: pointer; }
+.field__select .icon { position: absolute; right: 1rem; top: 50%; translate: 0 -50%; pointer-events: none; color: var(--c-muted); transition: transform var(--dur-2) var(--ease-out); }
+.field__select:focus-within .icon { color: var(--c-volt); transform: rotate(180deg); }
+.field select:invalid { color: #8E9DB4; }
+.field option { color: var(--c-text); background: var(--c-surface); }
+
+.field__error { min-height: 0; font-size: var(--step--2); font-weight: 600; color: var(--c-danger); }
+.field__error:empty { display: none; }
+.field.is-invalid input, .field.is-invalid select, .field.is-invalid textarea { border-color: var(--c-danger); }
+.field.is-invalid { animation: shake .4s var(--ease-out); }
+@keyframes shake { 20% { transform: translateX(-5px); } 45% { transform: translateX(4px); } 70% { transform: translateX(-2px); } }
+
+/* checkbox */
+.field--check input { position: absolute; left: 0; top: 0; opacity: 0; width: 24px; height: 24px; margin: 0; }
+.field--check label { display: flex; align-items: flex-start; gap: .75rem; min-height: var(--tap); font-weight: 500; font-size: var(--step--1); color: var(--c-muted); line-height: 1.5; cursor: pointer; }
+.check { flex: none; display: grid; place-items: center; width: 24px; height: 24px; margin-top: -1px; border-radius: 5px; border: 1.5px solid var(--c-field-line); background: var(--c-bg); color: var(--c-on-volt); transition: background-color var(--dur-2) var(--ease-out), border-color var(--dur-2) var(--ease-out); }
+.check .icon { width: 16px; height: 16px; stroke-width: 3; stroke-dasharray: 24; stroke-dashoffset: 24; transition: stroke-dashoffset var(--dur-2) var(--ease-out); }
+.field--check input:checked + label .check { background: var(--c-volt); border-color: var(--c-volt); }
+.field--check input:checked + label .check .icon { stroke-dashoffset: 0; }
+.field--check input:focus-visible + label .check { outline: 3px solid var(--c-focus); outline-offset: 2px; }
+.field--check .field__error { padding-left: calc(24px + .75rem); }
+.field--check.is-invalid .check { border-color: var(--c-danger); }
+
+/* honeypot – mimo obrazovku, ne display:none (některé boty to poznají) */
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
+.lead-form__actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-s) var(--space-m); margin-top: var(--space-l); }
+.lead-form__note { font-size: var(--step--1); color: var(--c-muted); }
+.lead-form__submit { min-width: 220px; }
+@media (max-width: 559px) { .lead-form__submit { flex: 1 1 100%; } }
+.lead-form__submit .spinner { width: 18px; height: 18px; border-radius: 50%; border: 2.5px solid currentColor; border-right-color: transparent; animation: spin .7s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.lead-form__status:not(:empty) { display: flex; gap: .75rem; align-items: flex-start; margin-top: var(--space-m); padding: var(--space-s) var(--space-m); border-radius: var(--radius-s); background: rgb(255 138 122 / .1); border: 1px solid rgb(255 138 122 / .4); font-size: var(--step--1); }
+.lead-form__status .icon { color: var(--c-danger); margin-top: .15rem; }
+.lead-form__status a { color: var(--c-volt); font-weight: 700; }
+
+/* poděkování */
+.lead-form__done { display: grid; min-height: 360px; place-content: center; justify-items: center; gap: var(--space-s); padding: var(--space-l); text-align: center; border-radius: inherit; background: var(--c-surface); }
+.lead-form__done[hidden] { display: none; }
+.lead-form__done h3 { font-family: var(--font-display); font-weight: 800; text-transform: uppercase; font-size: var(--step-3); line-height: 1.1; }
+.lead-form__done p { color: var(--c-muted); max-width: 30ch; }
+.done-check { width: 84px; height: 84px; }
+.done-check circle { fill: none; stroke: var(--c-volt); stroke-width: 2.5; stroke-dasharray: 151; stroke-dashoffset: 151; transform: rotate(-90deg); transform-origin: center; }
+.done-check path { fill: none; stroke: var(--c-volt); stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 40; stroke-dashoffset: 40; }
+.lead-form.is-done .done-check circle { animation: stroke .7s var(--ease-out) forwards; }
+.lead-form.is-done .done-check path { animation: stroke .45s var(--ease-out) .55s forwards; }
+@keyframes stroke { to { stroke-dashoffset: 0; } }
+.lead-form.is-done .lead-form__fields, .lead-form.is-done .lead-form__actions, .lead-form.is-done .lead-form__status { display: none; }
+.lead-form__done:focus { outline: none; }
+.field__req { color: var(--c-volt); font-weight: 700; margin-left: .2em; }
+.lead-form__legend { margin: 0 0 var(--space-m); font-size: .875rem; color: var(--c-muted); }
+.lead-form__legend .field__req { margin: 0 .15em 0 0; }

@@ -1,0 +1,17 @@
+{
+  "name": "elektrolinka-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Statický web elektrolinka.cz – generátor build.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --watch",
+    "serve": "node server.js dist 8091"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5"
+  }
+}
