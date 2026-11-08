@@ -22,7 +22,8 @@ ${page.noindex ? '<meta name="robots" content="noindex">' : `<link rel="canonica
 <meta property="og:description" content="${esc(page.description)}">
 <meta property="og:url" content="${url}">
 ${page.ogImage ? `<meta property="og:image" content="${config.siteUrl}${page.ogImage}">\n<meta property="og:image:width" content="1200">\n<meta name="twitter:card" content="summary_large_image">\n` : ''}<meta name="theme-color" content="#0D1626">
-<link rel="icon" href="/assets/img/brand/favicon.svg" type="image/svg+xml">
+${config.googleSiteVerification ? `<meta name="google-site-verification" content="${esc(config.googleSiteVerification)}">
+` : ''}<link rel="icon" href="/assets/img/brand/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/img/brand/apple-touch-icon.png">
 <link rel="preload" href="/assets/fonts/big-shoulders-display-800-cs.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/manrope-var-cs.woff2" as="font" type="font/woff2" crossorigin>
