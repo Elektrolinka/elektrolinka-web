@@ -57,7 +57,7 @@ p .u-link:hover { background-image: linear-gradient(var(--c-volt), var(--c-volt)
 .site-header.is-scrolled .site-header__bg, body.menu-open .site-header__bg { opacity: 1; }
 .site-header.is-scrolled .site-header__inner { height: var(--header-h-small); }
 .site-header.is-hidden { transform: translateY(-100%); }
-.site-header__logo { display: block; width: clamp(132px, 10vw + 60px, 168px); margin-right: auto; transform-origin: left center; transition: scale var(--dur-3) var(--ease-spring); }
+.site-header__logo { display: block; width: clamp(145px, 11vw + 66px, 185px); margin-right: auto; transform-origin: left center; transition: scale var(--dur-3) var(--ease-spring); }
 .site-header__logo:hover, .site-header__logo:focus-visible { scale: 1.06; }
 .site-header__logo img { width: 100%; transform-origin: left center; transition: transform var(--dur-2) var(--ease-out); }
 .site-header.is-scrolled .site-header__logo img { transform: scale(.86); }
@@ -128,7 +128,7 @@ p .u-link:hover { background-image: linear-gradient(var(--c-volt), var(--c-volt)
 .site-footer { position: relative; padding: var(--space-2xl) 0 calc(var(--space-l) + 52px + var(--gutter)); /* rezerva pro tlačítko Zpět nahoru */ border-top: 1px solid var(--c-line); background: var(--c-bg-2); color: var(--c-muted); font-size: var(--step--1); }
 .site-footer__grid { display: grid; gap: var(--space-l); }
 @media (min-width: 720px) { .site-footer__grid { grid-template-columns: 1.4fr 1fr 1fr 1.3fr; } }
-.site-footer__brand img { width: 160px; margin-bottom: var(--space-s); }
+.site-footer__brand img { width: 176px; margin-bottom: var(--space-s); }
 .site-footer__brand p { max-width: 30ch; }
 .site-footer__title { font-family: var(--font-mono); font-size: var(--step--2); font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--c-text); margin-bottom: var(--space-s); }
 .site-footer__links { display: grid; gap: .1rem; }
