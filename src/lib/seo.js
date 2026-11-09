@@ -69,7 +69,7 @@ function jsonLd(ctx) {
       serviceType: s.title,
       description: s.seo.description,
       url: `${config.siteUrl}/${s.slug}`,
-      image: `${config.siteUrl}${ctx.img.jpg(s.image, 1200)}`,
+      image: `${config.siteUrl}${ctx.img.jpg(s.heroImage || s.image, 1200)}`,
       provider: { '@id': `${config.siteUrl}/#firma` },
       areaServed: [{ '@type': 'AdministrativeArea', name: 'Královéhradecký kraj' }, { '@type': 'AdministrativeArea', name: 'Liberecký kraj' }],
     });

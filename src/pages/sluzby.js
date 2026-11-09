@@ -56,12 +56,15 @@ module.exports = services.map((s) => ({
   render(ctx) {
     const svc = ctx.services.find((x) => x.slug === s.slug);
     const d = svc.detail;
+    // úvod podstránky může mít jinou fotku než karta služby (heroImage); přelet z karty jen při stejné fotce
+    const hero = svc.heroImage || svc.image;
+    const heroAlt = svc.heroImage ? svc.heroImageAlt : svc.imageAlt;
     ctx.page = {
       ...ctx.page,
       title: svc.seo.title,
       description: svc.seo.description,
-      ogImage: ctx.img.jpg(svc.image, 1200),
-      headExtra: ctx.img.preload(svc.image, { sizes: '(min-width: 960px) 58vw, 130vw' }),
+      ogImage: ctx.img.jpg(hero, 1200),
+      headExtra: ctx.img.preload(hero, { sizes: '(min-width: 960px) 58vw, 130vw' }),
       bodyClass: 'page-service',
       service: svc,
       form: true,
@@ -73,9 +76,9 @@ module.exports = services.map((s) => ({
         h1: d.h1 || svc.title,
         sub: d.sub,
         ctas: ctaButtons(ctx, svc.cta, svc.formValue),
-        photo: svc.image,
-        photoAlt: svc.imageAlt,
-        vt: `svc-${svc.slug}`,
+        photo: hero,
+        photoAlt: heroAlt,
+        vt: hero === svc.image ? `svc-${svc.slug}` : undefined,
       }),
       body(ctx, svc),
       faqSection(d.faq, { draft: d.faqDraft }),
