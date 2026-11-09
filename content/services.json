@@ -70,6 +70,7 @@
     "formValue": "Chytrá domácnost",
     "icon": "home",
     "image": "chytra-domacnost_ovladac_ajax.jpg",
+    "imagePos": "50% 85%",
     "imageAlt": "Ruka mačká bezdrátové tlačítko zabezpečení Ajax před domem",
     "short": "Chcete mít svůj domov pod kontrolou? Zabývám se instalací chytré domácnosti – od ovládání světel až po zabezpečení a kamerový dohled.",
     "cta": "Chci smart home",

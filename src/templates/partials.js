@@ -140,7 +140,7 @@ function serviceCards(ctx, list, { more = 'Více o službě', small = false } = 
   return `<ul class="services__grid${small ? ' services__grid--small' : ''}" data-reveal-group>
       ${list.map((x) => `<li class="svc" data-tilt>
         <a class="svc__link" href="/${x.slug}">
-          <div class="svc__media" style="view-transition-name:svc-${x.slug}">${img.picture(x.image, { alt: '', sizes: '(min-width: 1100px) 300px, (min-width: 640px) 50vw, 100vw', widths: [480, 800, 1200], imgCls: 'svc__img' })}</div>
+          <div class="svc__media" style="view-transition-name:svc-${x.slug}">${img.picture(x.image, { alt: '', sizes: '(min-width: 1100px) 300px, (min-width: 640px) 50vw, 100vw', widths: [480, 800, 1200], imgCls: 'svc__img', attrs: x.imagePos ? `style="object-position:${x.imagePos}"` : '' })}</div>
           <div class="svc__body">
             <span class="svc__icon">${icon(x.icon, 'icon icon--draw')}</span>
             <h3 class="svc__title">${esc(x.title)}</h3>
