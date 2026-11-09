@@ -23,7 +23,7 @@ function hero(ctx, h) {
         </div>
       </div>
       <figure class="hero__photo" data-parallax-wrap>
-        ${img.picture(h.photo, { alt: h.photoAlt, priority: true, sizes: '(min-width: 960px) 46vw, 100vw', attrs: 'data-parallax="10"' })}
+        ${img.picture(h.photo, { alt: h.photoAlt, priority: true, sizes: '(min-width: 960px) 72vw, 140vw', widths: [800, 1200, 1600, 2000], attrs: 'data-parallax="10"' })}
       </figure>
     </div>
 
@@ -152,7 +152,7 @@ module.exports = {
       title: h.seo.title,
       description: h.seo.description,
       ogImage: ctx.img.jpg(h.seo.ogImage, 1200),
-      headExtra: ctx.img.preload(h.hero.photo, { sizes: '(min-width: 960px) 46vw, 100vw' }),
+      headExtra: ctx.img.preload(h.hero.photo, { sizes: '(min-width: 960px) 72vw, 140vw', widths: [800, 1200, 1600, 2000] }),
       bodyClass: 'page-home',
       slider: true,
       form: true,

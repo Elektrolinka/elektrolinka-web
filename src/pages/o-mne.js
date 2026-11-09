@@ -15,7 +15,7 @@ module.exports = {
       title: o.seo.title,
       description: o.seo.description,
       ogImage: ctx.img.jpg(o.photo, 1200),
-      headExtra: ctx.img.preload(o.photo, { sizes: '(min-width: 960px) 44vw, 100vw' }),
+      headExtra: ctx.img.preload(o.photo, { sizes: '(min-width: 960px) 58vw, 130vw' }),
       bodyClass: 'page-about',
       form: true,
       lightbox: true,

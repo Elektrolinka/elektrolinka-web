@@ -15,7 +15,7 @@ module.exports = {
       title: k.seo.title,
       description: k.seo.description,
       ogImage: ctx.img.jpg(k.photo, 1200),
-      headExtra: ctx.img.preload(k.photo, { sizes: '(min-width: 960px) 44vw, 100vw' }),
+      headExtra: ctx.img.preload(k.photo, { sizes: '(min-width: 960px) 58vw, 130vw' }),
       bodyClass: 'page-contact',
       form: true,
       breadcrumb: [{ name: 'Kontakt', url: '/kontakt' }],

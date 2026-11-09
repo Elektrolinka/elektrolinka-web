@@ -28,7 +28,7 @@ function pageHero(ctx, { crumbs = [], h1, sub, lead, ctas = '', photo, photoAlt 
       ${ctas ? `<div class="page-hero__ctas">${ctas}</div>` : ''}
     </div>
     ${photo ? (() => {
-      const pic = img.picture(photo, { alt: photoAlt, priority: true, sizes: '(min-width: 960px) 44vw, 100vw', attrs: `data-parallax="10"${photoPos ? ` style="object-position:${photoPos}"` : ''}` });
+      const pic = img.picture(photo, { alt: photoAlt, priority: true, sizes: '(min-width: 960px) 58vw, 130vw', attrs: `data-parallax="10"${photoPos ? ` style="object-position:${photoPos}"` : ''}` });
       return `<figure class="page-hero__photo"${vt ? ` style="--vt:${vt}"` : ''} data-parallax-wrap>
       ${photoHref ? `<a class="page-hero__photo-link" href="${photoHref}" target="_blank" rel="noopener" aria-label="${esc(photoHrefLabel)} (otevře se v novém okně)">${pic}</a>` : pic}
       ${photoCredit ? `<figcaption class="page-hero__credit">${photoCredit}</figcaption>` : ''}

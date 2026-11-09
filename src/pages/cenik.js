@@ -13,7 +13,7 @@ module.exports = {
       title: c.seo.title,
       description: c.seo.description,
       ogImage: ctx.img.jpg(c.photo, 1200),
-      headExtra: ctx.img.preload(c.photo, { sizes: '(min-width: 960px) 44vw, 100vw' }),
+      headExtra: ctx.img.preload(c.photo, { sizes: '(min-width: 960px) 58vw, 130vw' }),
       bodyClass: 'page-cenik',
       form: true,
       breadcrumb: [{ name: 'Ceník', url: '/cenik' }],

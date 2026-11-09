@@ -61,7 +61,7 @@ module.exports = services.map((s) => ({
       title: svc.seo.title,
       description: svc.seo.description,
       ogImage: ctx.img.jpg(svc.image, 1200),
-      headExtra: ctx.img.preload(svc.image, { sizes: '(min-width: 960px) 44vw, 100vw' }),
+      headExtra: ctx.img.preload(svc.image, { sizes: '(min-width: 960px) 58vw, 130vw' }),
       bodyClass: 'page-service',
       service: svc,
       form: true,
