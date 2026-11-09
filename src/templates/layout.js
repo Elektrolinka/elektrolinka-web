@@ -121,7 +121,6 @@ function footer(ctx) {
   </div>
 </footer>
 <a class="to-top" href="#top" aria-label="Zpět nahoru">
-  <svg class="to-top__ring" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24"/><circle class="to-top__progress" cx="26" cy="26" r="24" pathLength="100"/></svg>
   <svg class="to-top__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
 </a>`;
 }

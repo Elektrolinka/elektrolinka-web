@@ -22,18 +22,12 @@
       if (y > 320 && y > lastY + 4) header.classList.add('is-hidden');
       else if (y < lastY - 4 || y <= 320) header.classList.remove('is-hidden');
     }
-    if (toTop) {
-      toTop.classList.toggle('is-visible', y > window.innerHeight * 0.9);
-      toTopProgress.style.strokeDashoffset = String(100 - Math.min(1, y / maxScroll) * 100);
-    }
+    if (toTop) toTop.classList.toggle('is-visible', y > window.innerHeight * 0.9);
     lastY = y;
   };
 
-  // ---------- Zpět nahoru: kroužek ukazuje, kolik stránky je přečteno ----------
+  // ---------- Zpět nahoru ----------
   const toTop = $('.to-top');
-  const toTopProgress = toTop && $('.to-top__progress', toTop);
-  let maxScroll = 1;
-  const measureScroll = () => { maxScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight); };
   if (toTop) {
     toTop.addEventListener('click', (e) => {
       e.preventDefault();
@@ -41,8 +35,6 @@
       // fokus zpět na začátek stránky (klávesnice, čtečky)
       $('.site-header__logo').focus({ preventScroll: true });
     });
-    addEventListener('resize', measureScroll, { passive: true });
-    requestAnimationFrame(() => requestAnimationFrame(measureScroll));
   }
   addEventListener('scroll', onScroll, { passive: true });
   // první čtení scrollY až po prvním vykreslení (jinak vynucený layout celé stránky při startu)
@@ -100,7 +92,6 @@
   let roT, lastH = 0;
   new ResizeObserver(([e]) => {
     const h = Math.round(e.contentRect.height);
-    measureScroll();
     if (!lastH || Math.abs(h - lastH) < 40) { lastH = h; return; }
     lastH = h;
     clearTimeout(roT); roT = setTimeout(() => window.ScrollTrigger?.refresh(), 250);
