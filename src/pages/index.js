@@ -71,7 +71,7 @@ function why(ctx, w) {
   return `<section class="section why" aria-labelledby="why-title">
   <div class="container why__grid">
     <figure class="why__photo" data-parallax-wrap data-reveal>
-      ${img.picture(w.photo, { alt: w.photoAlt, sizes: '(min-width: 960px) 40vw, 100vw', attrs: 'data-parallax="12"' })}
+      ${img.picture(w.photo, { alt: w.photoAlt, sizes: '(min-width: 960px) 72vw, 130vw', widths: [800, 1200, 1536], attrs: 'data-parallax="12"' })}
     </figure>
     <div>
       <h2 class="section-title" id="why-title" data-reveal-words>${title(w.title)}</h2>

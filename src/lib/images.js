@@ -9,7 +9,7 @@ const ROOT = path.join(__dirname, '..', '..');
 const SRC = path.join(ROOT, 'assets', 'img', 'original');
 const CACHE = path.join(ROOT, '.cache', 'img');
 const DEFAULT_WIDTHS = [480, 800, 1200, 1600, 2000];
-const QUALITY = { avif: 45, webp: 74, jpg: 82 };
+const QUALITY = { avif: 62, webp: 82, jpg: 85 };
 
 const meta = new Map();   // soubor → { width, height, hash }
 const jobs = new Map();   // výstupní název → { file, width, format }
