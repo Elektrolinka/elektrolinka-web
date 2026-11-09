@@ -17,6 +17,8 @@
 .page-hero__photo { position: relative; margin: 0; aspect-ratio: 4 / 3; border-radius: var(--radius-card); overflow: hidden; background: var(--c-surface); }
 .page-hero__photo picture { height: 100%; }
 .page-hero__photo img { width: 100%; height: 112%; object-fit: cover; object-position: 72% 45%; }
+.page-hero__photo--still img { height: 100%; } /* bez paralaxy = bez přiblížení navíc */
+.page-hero__photo--square { aspect-ratio: 1 / 1; } /* čtvercová fotka celá, bez ořezu */
 .page-hero--text .page-hero__grid { max-width: 900px; margin-left: max(var(--gutter), calc((100vw - var(--container)) / 2)); }
 .page-hero--compact { padding-bottom: var(--space-l); }
 
